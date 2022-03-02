@@ -1,0 +1,14 @@
+[package]
+name = "solarbot"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+roll-rs = "0.3.0"
+serenity = "0.10"
+tokio = { version = "1.17.0", features = ["full"] }
+
+[env]
+DISCORD_TOKEN = "ODAwMjMzMzQ4NjQ2Njk5MDc5.YAPJYQ.Tlo3Y_27dK6b9D5q9RCqdX2oXvU"
